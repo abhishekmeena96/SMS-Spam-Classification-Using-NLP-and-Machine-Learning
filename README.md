@@ -1,6 +1,5 @@
 # SMS-Spam-Classification-Using-NLP-and-Machine-Learning
 
-# SMS Spam Classification using NLP and Machine Learning
 
 ### 1. Data Collection
 - Use a dataset containing SMS messages labeled as "ham" (not spam) or "spam" (unwanted messages).
