@@ -1,35 +1,45 @@
 # SMS-Spam-Classification-Using-NLP-and-Machine-Learning
 
- overview of the SMS Spam Classification using NLP and Machine Learning process:
+# SMS Spam Classification using NLP and Machine Learning
 
-1. Data Collection:
-     Use an SMS dataset labeled as "ham" (not spam) or "spam" (unwanted messages). Example: SMS Spam Collection dataset.
-2. Data Preprocessing:
-   Text Cleaning: Remove noise like special characters, punctuation, and stop words.
-   Tokenization: Break down text into individual words (tokens).
-   Vectorization: Convert text into a numerical format using Bag of Words (BoW) or TF-IDF (Term Frequency-Inverse Document Frequency).
-3. Exploratory Data Analysis (EDA):
-   Analyze and visualize data distribution.
-   Common tools: word clouds, frequency charts to detect patterns in spam/ham messages.
-4. Model Building:
-   Use classifiers like:
-   Naive Bayes: Common for text classification due to simplicity and effectiveness.
-   Logistic Regression or SVM: Alternatives for robust classification.
-   Split data into training and test sets (e.g., 80/20 split).
-5. Model Training:
-   Train the classifier using the vectorized data.
-   Fine-tune model parameters.
-6. Model Evaluation:
-   Measure performance using metrics such as:
-   Accuracy: Overall correctness.
-   Precision: Spam detection accuracy.
-   Recall: Coverage of actual spam messages.
-   F1-Score: Balance between precision and recall.
-7. Fine-Tuning and Optimization:
-   Adjust feature extraction techniques, try different algorithms, or apply cross-validation for better results.
-8. Final Results:
-   High-performing models achieve metrics like:
-   Accuracy: ~98%
-   Precision: ~99%
-   Recall: ~98%
-This overview covers the essentials of building an SMS spam classifier, highlighting key steps in data processing, model training, and evaluation using machine learning and NLP techniques.
+### 1. Data Collection
+- Use a dataset containing SMS messages labeled as "ham" (not spam) or "spam" (unwanted messages).
+- Example: **SMS Spam Collection dataset**.
+
+### 2. Data Preprocessing
+- **Text Cleaning**: Remove unnecessary characters, punctuation, and stop words.
+- **Tokenization**: Split the text into individual words (tokens).
+- **Vectorization**: Convert text into numerical form using:
+  - **Bag of Words (BoW)**, or
+  - **TF-IDF (Term Frequency-Inverse Document Frequency)**.
+
+### 3. Exploratory Data Analysis (EDA)
+- Analyze and visualize the distribution of spam and ham messages.
+- Tools: **Word clouds**, **frequency charts**.
+
+### 4. Model Building
+- Use machine learning classifiers like:
+  - **Naive Bayes** (common for text classification),
+  - **Logistic Regression**, or
+  - **Support Vector Machines (SVM)**.
+- Split data into training and test sets (e.g., 80/20 split).
+
+### 5. Model Training
+- Train the model using vectorized SMS data.
+- Tune hyperparameters for better performance.
+
+### 6. Model Evaluation
+- Evaluate using metrics like:
+  - **Accuracy**: Correctness of predictions.
+  - **Precision**: Spam detection accuracy.
+  - **Recall**: How well actual spam is detected.
+  - **F1-Score**: Balance between precision and recall.
+
+### 7. Fine-Tuning and Optimization
+- Experiment with different algorithms, feature extraction techniques, and use **cross-validation**.
+
+### 8. Final Results
+- Well-performing models can achieve:
+  - **Accuracy**: ~98%
+  - **Precision**: ~99%
+  - **Recall**: ~98%
